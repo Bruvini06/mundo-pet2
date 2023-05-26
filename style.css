@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:ital,wght@1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 .mundopet {
-    font-family: 'Fredoka', sans-serif;
+  font-family: 'Fredoka', sans-serif;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -43,6 +45,8 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
 }
 
 .patas{
@@ -54,9 +58,53 @@ header {
 }
 
 .carrinho{
-    height: 40px;
+    height: 30px;
 }
 
 .coracao{
     height: 40px;
+}
+
+.user{
+    height: 40px;
+}
+
+.inicial{
+    display: flex;
+    line-height: 70px;
+    padding-left:7% ;
+}
+
+.mundopet-2{
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 70px;    
+}
+
+.p-1{
+    font-family: 'Fresca', sans-serif;
+    display: flex;
+    line-height: 30px;
+    padding-left:7% ;
+    font-size: 25px;
+}
+
+.p-2{
+    color: #264C84;
+    font-family: 'Fresca', sans-serif;
+    display: flex;
+    line-height: 70px;
+    padding-left:7% ;
+    font-size: 25px;
+}
+
+.dog-1{
+    justify-content: center;
+    display: flex;
+    height: 400px;
+background-size: cover;
+}
+
+.app{
+    height: 30vh;
 }
