@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mundopet {
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #264C84;
+    font-size: 70px;
+}
+
+header {
+    background-color: #FBBC19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* width: 97vw; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
+
+
+    /* Deixa o header acima dos outros elementos */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 40px ;
+    color: white;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.patas{
+    height: 60px;
+}
+
+.gato{
+    height: 60px;
+}
+
+.carrinho{
+    height: 40px;
+}
+
+.coracao{
+    height: 40px;
+}
