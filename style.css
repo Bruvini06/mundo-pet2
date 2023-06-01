@@ -16,6 +16,11 @@
     font-size: 70px;
 }
 
+.mundopet a{
+    text-decoration: none;
+    color: inherit;
+}
+
 header {
     background-color: #FBBC19;
     display: flex;
