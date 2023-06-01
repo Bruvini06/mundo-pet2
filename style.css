@@ -1,6 +1,6 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+/* Index */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 .mundopet {
-  font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
     font-size: 70px;
 }
 
-.mundopet a{
+.mundopet a {
     text-decoration: none;
     color: inherit;
 }
@@ -44,7 +44,7 @@ header {
 }
 
 .navbar a {
-    padding: 40px ;
+    padding: 40px;
     color: white;
 }
 
@@ -54,62 +54,150 @@ header {
     font-size: 20px;
 }
 
-.patas{
+.patas {
     height: 60px;
 }
 
-.gato{
+.gato {
     height: 60px;
 }
 
-.carrinho{
+.carrinho {
     height: 30px;
 }
 
-.coracao{
+.coracao {
     height: 40px;
 }
 
-.user{
+.user {
     height: 40px;
 }
 
-.inicial{
+.inicial {
     display: flex;
     line-height: 70px;
-    padding-left:7% ;
+    padding-left: 7%;
 }
 
-.mundopet-2{
+.mundopet-2 {
     font-family: 'Fredoka', sans-serif;
     color: #264C84;
-    font-size: 70px;    
+    font-size: 70px;
 }
 
-.p-1{
+.p-1 {
     font-family: 'Fresca', sans-serif;
     display: flex;
     line-height: 30px;
-    padding-left:7% ;
+    padding-left: 7%;
     font-size: 25px;
 }
 
-.p-2{
+.p-2 {
     color: #264C84;
     font-family: 'Fresca', sans-serif;
     display: flex;
     line-height: 70px;
-    padding-left:7% ;
+    padding-left: 7%;
     font-size: 25px;
 }
 
-.dog-1{
+.dog-1 {
     justify-content: center;
     display: flex;
     height: 400px;
-background-size: cover;
+    background-size: cover;
 }
 
-.app{
+.app {
     height: 30vh;
 }
+
+.marcas-parceiras {
+    display: flex;
+    line-height: 70px;
+    padding-left: 5%;
+}
+
+.marcas {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 30px;
+}
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sobre-nos {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 30px;
+    display: flex;
+    line-height: 70px;
+    padding-left: 5%;
+
+}
+
+footer{
+    background-color: #264C84;
+    font-family: 'Fredoka', sans-serif;
+    color: #FFEAA1;
+    height: 250px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    padding-left: 5%;
+}
+
+.texto-esquerdo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.texto-meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -14% ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.brands .row {
+    margin-left: -300px;
+}
+
+.texto-direito{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: -13.6%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+ /* ____________________________________________________________ */
+ /* Passaro */
