@@ -201,3 +201,16 @@ footer{
 
  /* ____________________________________________________________ */
  /* Passaro */
+
+ .retangulo-1{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-radius: 30px;
+ }
+
+ .passaro1{
+    width: 180px;
+ }
