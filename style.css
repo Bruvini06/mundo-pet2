@@ -220,7 +220,7 @@ footer{
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-right: 470px;
+    margin-right: 0px;
  }
 
  .passaro-texto{
@@ -241,4 +241,69 @@ footer{
 
  .ninho-p{
     height: 100px;
+    transform: rotate(20deg)
  }
+
+ .brinquedo-passaro{
+    height: 100px;
+    transform: rotate(-20deg)
+ }
+
+ .passaros-2{
+    width: 250px;;
+    margin-top: -10px;
+ }
+
+ .os-melhores{
+    font-family: 'Fredoka', sans-serif;
+    color: #464A4C;
+    font-size: 50px;
+    margin-left: 60px;
+ }
+ .passaro-amarelo{
+    color: #FBBC19;
+ }
+
+ .p-amarelo{
+    width: 100px;
+ }
+
+ .texto-abaixo-2{
+    font-family:'Fresca', sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+ }
+
+ .texto-abaixo-3{
+    font-family: 'Fredoka', sans-serif ;
+    margin-left: 60px;
+    color: #FBBC19;
+    font-size: 30px;
+ }
+
+ .retangulo-compra{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 60px;
+    }
+
+ 
+ .retangulo-compra p{
+    font-family: 'Fredoka', sans-serif  ;
+    font-size: 15px;
+ }
+
+.jornal-h-p{
+    width: 100px;
+    margin-top: -400px;
+}
+
+.img1{
+    margin-left: 80px;
+    width: 90px;
+}
