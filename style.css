@@ -212,5 +212,33 @@ footer{
  }
 
  .passaro1{
-    width: 180px;
+    margin-top: -15px;
+    width: 200px;
+ }
+
+ .parte-central{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 470px;
+ }
+
+ .passaro-texto{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 90px;
+     color: white;
+ }
+
+ .bolsa-1{
+    height: 110px;
+    transform: rotate(-20deg)
+ }
+
+ .racao-1{
+    height: 100px;
+    transform: rotate(20deg)
+ }
+
+ .ninho-p{
+    height: 100px;
  }
