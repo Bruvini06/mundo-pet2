@@ -295,7 +295,7 @@ footer{
 
  
  .retangulo-compra p{
-    font-family: 'Fredoka', sans-serif  ;
+    font-family: 'Fresca', sans-serif  ;
     font-size: 15px;
     cursor: pointer;
  }
@@ -322,7 +322,7 @@ footer{
 }
 
 .retangulo-compra-2 p{
-    font-family: 'Fredoka', sans-serif  ;
+    font-family: 'Fresca', sans-serif  ;
     font-size: 15px;
     cursor: pointer;
 }
@@ -345,7 +345,7 @@ footer{
 }
 
 .retangulo-compra-3 p{
-    font-family: 'Fredoka', sans-serif  ;
+    font-family: 'Fresca', sans-serif  ;
     font-size: 15px;
     cursor: pointer;
 }
@@ -368,15 +368,106 @@ footer{
 }
 
 .retangulo-compra-4 p{
-    font-family: 'Fredoka', sans-serif  ;
+    font-family: 'Fresca', sans-serif  ;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 50px;
+    margin-right: 30px;
 }
 
 .img4{
     margin-top: -20px;
     margin-left: 1235px;
+}
+
+.ver-mais{
+    font-size: 20px;
+    margin-left: 600px;
+    cursor: pointer;
+    color: #264C84;
+    text-decoration: underline;
+}
+
+.cesta{
+    width: 30px;
+    margin-top: 110px;
+    margin-left: 110;
+    cursor: pointer;
+}
+
+.preço-pa-1{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-2{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-3{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-4{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.coraçao-compra{
+    width: 30px;
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+/* Promoções */
+
+.retangulo-promoçao-1{
+    background-color: #FBBC19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.fone{
+    width: 30px;
+    margin-top: -200px;
+}
+
+.hj-e{
+    margin-top: -10px;
+    margin-left: 80px;
+    font-family:'fredoka', sans-serif; 
+    font-size: 25px;
+}
+
+.promo{
+    font-family: 'fredoka', sans-serif; 
+    color: #FF8A00;
+    margin-right: 100px;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.aqui-pet{
+    margin-top: -20px;
+    margin-left: 50px;
+    font-family:'fredoka', sans-serif; 
+    font-size: 25px;
+}
+
+.retangulo-promoçao-2{
+    height: 100px;
+    width: 270px;
+    background-color: #264C84;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: -270px;
 }
 
 /*__________________________________________________________________*/
