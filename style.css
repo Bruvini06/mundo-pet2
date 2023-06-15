@@ -395,22 +395,27 @@ p {
 }
 .textocachorro{
     font-family: 'Fredoka', sans-serif;
+      align-items: ;
       display: flex;
+      justify-content: ;
       color: #000000;
       font-size: 40px;
 }
 span {
     color: #FBBC19
 }
-.patas { 
+.patas {
+    align-items: ;
     display: flex;
-    justify-content:center ;
+    justify-content: ;
     color: #000000;
     font-size: 10px;
 }
 .texto-sobre-cao {
     font-family: 'Fredoka', sans-serif;
+    align-items: ;
     display: flex;
+    justify-content: ;
     color: #000000;
     font-size: 20px;
 
@@ -426,7 +431,7 @@ background: #264C84;
     font-family: 'Fredoka', sans-serif;
     font-size: 10px;
 }
-.p1 {
+p1 {
     font-family: 'Fredoka';
     font-size: 40px;
     margin-left: 40px;
@@ -441,3 +446,18 @@ background: #264C84;
     display: flex;
     text-align: center;
 }
+   
+    
+
+}
+
+
+
+
+
+  
+
+
+  
+    
+
