@@ -12,13 +12,13 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    color: #264C84;
     font-size: 70px;
+    color: #264C84
 }
 
 .mundopet a {
     text-decoration: none;
-    color: inherit;
+    color: #264C84;
 }
 
 header {
@@ -182,7 +182,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -14% ;
+    margin-top: -210px ;
     font-size: 25px;
     cursor: pointer;
 }
@@ -194,9 +194,10 @@ footer{
 .texto-direito{
     font-size: 25px;
     cursor: pointer;
-    margin-top: -13.6%;
+    margin-top: -210px;
     text-align: right;
     padding-right: 5%;
+    display: block;
 }
 
  /* ____________________________________________________________ */
@@ -286,16 +287,17 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    width: 150px;
+    height: 140px;
+    width: 250px;
     border-radius: 10px;
-    margin-left: 60px;
+    margin-left: 140px;
     }
 
  
  .retangulo-compra p{
     font-family: 'Fredoka', sans-serif  ;
     font-size: 15px;
+    cursor: pointer;
  }
 
 .jornal-h-p{
@@ -304,8 +306,77 @@ footer{
 }
 
 .img1{
-    margin-left: 80px;
-    width: 90px;
+    margin-left: 215px;
+}
+
+.retangulo-compra-2{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 480px;
+    margin-top: -140px;
+}
+
+.retangulo-compra-2 p{
+    font-family: 'Fredoka', sans-serif  ;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.img2{
+    margin-left: 555px;
+    margin-top: -20px;
+}
+
+.retangulo-compra-3{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 820px;
+    margin-top: -139px;
+}
+
+.retangulo-compra-3 p{
+    font-family: 'Fredoka', sans-serif  ;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.img3{
+    margin-top: -20px;
+    margin-left: 895px;
+}
+
+.retangulo-compra-4{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 1160px;
+    margin-top: -139px;
+}
+
+.retangulo-compra-4 p{
+    font-family: 'Fredoka', sans-serif  ;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.img4{
+    margin-top: -20px;
+    margin-left: 1235px;
 }
 
 /*__________________________________________________________________*/
@@ -324,9 +395,7 @@ p {
 }
 .textocachorro{
     font-family: 'Fredoka', sans-serif;
-      align-items: ;
       display: flex;
-      justify-content: ;
       color: #000000;
       font-size: 40px;
 }
@@ -341,9 +410,7 @@ span {
 }
 .texto-sobre-cao {
     font-family: 'Fredoka', sans-serif;
-    align-items: ;
     display: flex;
-    justify-content: ;
     color: #000000;
     font-size: 20px;
 
@@ -359,7 +426,7 @@ background: #264C84;
     font-family: 'Fredoka', sans-serif;
     font-size: 10px;
 }
-p1 {
+.p1 {
     font-family: 'Fredoka';
     font-size: 40px;
     margin-left: 40px;
