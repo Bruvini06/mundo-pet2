@@ -405,7 +405,7 @@ span {
     color: #FBBC19
 }
 .patas {
-    align-items: 
+    align-items:; 
     display: flex;
     justify-content: 
     color: #000000;
@@ -413,12 +413,11 @@ span {
 }
 .texto-sobre-cao {
     font-family: 'Fredoka', sans-serif;
-    align-items: 
+    align-items:; 
     display: flex;
     justify-content: 
     color: #000000;
     font-size: 20px;
-
 }
 .linha {
 height: 10px;
@@ -431,7 +430,7 @@ background: #264C84;
     font-family: 'Fredoka', sans-serif;
     font-size: 10px;
 }
-p1 {
+.p1 {
     font-family: 'Fredoka';
     font-size: 40px;
     margin-left: 40px;
