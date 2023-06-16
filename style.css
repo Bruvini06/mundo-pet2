@@ -397,6 +397,7 @@ footer{
     border-radius: 10px;
     margin-left: 50px;
     margin-top: 90px;
+    border: 1px solid black;
 }
 
 .fone{
@@ -435,14 +436,53 @@ footer{
     margin-top: -270px;
     align-items: center;
     display: flex;
+    border: 1px solid black;
 }
 
 .retangulo-promoçao-2 p{
     font-family:'fredoka', sans-serif; 
-    font-size: 20px;
+    font-size: 27px;
     color: #FBBC19;
 }
 
+.retangulo-promoçao-3{
+    background-color: #FBBC19;
+    height: 130px;
+    width: 270px;
+    margin-left: 1100px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+}
+.retangulo-promoçao-3 p{
+    font-family: 'fredoka', sans-serif; 
+    color: #264C84;
+    font-size: 24px;
+}
+
+.retangulo-promoçao-4{
+    height: 100px;
+    width: 350px;
+    background-color: #FF8A00;
+    border-radius: 10px;
+    margin-left: 600px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    margin-top: -70px;
+}
+
+.retangulo-promoçao-4 p{
+    color: #FCE2A1;
+    font-family: 'fredoka', sans-serif; 
+    font-size: 27px;
+}
+
+.retangulo-promoçao-5{
+    width: 20px;
+    background-color: #FF8A00;
+}
 
 /*__________________________________________________________________*/
 /*Cachorro*/
