@@ -14,6 +14,15 @@
     font-size: 50px;
 }
 
+main {
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .main-esquerda form {
     display: flex;
     flex-direction: column;
@@ -45,8 +54,8 @@ h1 {
     background-color: #FFEAA1;
     border: none;
     outline: none;
-    padding: 15px;
-    width: 75%;
+    padding: 25px;
+    width: 180px;
     border-radius: 7px;
 }
 
@@ -68,7 +77,7 @@ h1 {
     padding: 17px;
     color: black;
     background-color: #FBBC19;
-    width: 75%;
+    width: 190px;
     margin: auto;
     border-radius: 7px;
 }
@@ -83,6 +92,7 @@ h1 {
 }
 
 .botao-google a {
+    position: relative;
     color: black;
     /* background-color: rgb(109, 235, 109); */
     padding: 0px 15px 0px 15px;
@@ -90,13 +100,18 @@ h1 {
 
 #google {
     height: 25px;
-    position: absolute;
     left: 2.5%;
 }
 
 .main-esquerda {
     text-align: center;
-    /* background-color: red; */
     width: fit-content;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#asd {
+    color: #9F9090;
 }
