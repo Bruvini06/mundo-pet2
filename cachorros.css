@@ -1,4 +1,3 @@
-/* Index */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
@@ -199,204 +198,116 @@ footer{
     padding-right: 5%;
     display: block;
 }
-
- /* ____________________________________________________________ */
- /* Passaro */
-
- .retangulo-1{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 150px;
-    border-radius: 30px;
- }
-
- .passaro1{
-    margin-top: -15px;
-    width: 200px;
- }
-
- .parte-central{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 0px;
- }
-
- .passaro-texto{
-    font-family: 'Fredoka', sans-serif;
-    font-size: 90px;
-     color: white;
- }
-
- .bolsa-1{
-    height: 110px;
-    transform: rotate(-20deg)
- }
-
- .racao-1{
-    height: 100px;
-    transform: rotate(20deg)
- }
-
- .ninho-p{
-    height: 100px;
-    transform: rotate(20deg)
- }
-
- .brinquedo-passaro{
-    height: 100px;
-    transform: rotate(-20deg)
- }
-
- .passaros-2{
-    width: 250px;;
-    margin-top: -10px;
- }
-
- .os-melhores{
-    font-family: 'Fredoka', sans-serif;
-    color: #464A4C;
-    font-size: 50px;
-    margin-left: 60px;
- }
- .passaro-amarelo{
-    color: #FBBC19;
- }
-
- .p-amarelo{
-    width: 100px;
- }
-
- .texto-abaixo-2{
-    font-family:'Fresca', sans-serif;
-    font-size: 20px;
-    margin-left: 60px;
- }
-
- .texto-abaixo-3{
-    font-family: 'Fredoka', sans-serif ;
-    margin-left: 60px;
-    color: #FBBC19;
-    font-size: 30px;
- }
-
- .retangulo-compra{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 140px;
+.cachorros {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   }
+   h1 {
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   p {
+       margin-left: 20px;
+   }
+   .textocachorro{
+       font-family: 'Fredoka', sans-serif;
+         align-items: ;
+         display: flex;
+         justify-content: ;
+         color: #000000;
+         font-size: 20px;
+   }
+   span {
+       color: #FBBC19
     }
-
- 
- .retangulo-compra p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
- }
-
-.jornal-h-p{
-    width: 100px;
-    margin-top: -400px;
-}
-
-.img1{
-    margin-left: 215px;
-}
-
-.retangulo-compra-2{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 480px;
-    margin-top: -140px;
-}
-
-.retangulo-compra-2 p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.img2{
-    margin-left: 555px;
-    margin-top: -20px;
-}
-
-.retangulo-compra-3{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 820px;
-    margin-top: -139px;
-}
-
-.retangulo-compra-3 p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.img3{
-    margin-top: -20px;
-    margin-left: 895px;
-}
-
-.retangulo-compra-4{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 1160px;
-    margin-top: -139px;
-}
-
-.retangulo-compra-4 p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
-    margin-left: 50px;
-}
-
-.img4{
-    margin-top: -20px;
-    margin-left: 1235px;
-}
-
-
-
-<<<<<<< HEAD
+   .patas {
+       align-items:; 
+       display: flex;
+       justify-content: 
+       color: #000000;
+       font-size: 20px;
+   }
+   .texto-sobre-cao {
+       font-family: 'Fredoka', sans-serif;
+       align-items:; 
+       display: flex;
+       justify-content: 
+       color: #000000;
+       font-size: 20px;
+   }
+   .linha {
+   height: 10px;
+   width: 100%;
+   background: #264C84;
    
-    
+}
+
+.caixa img {
+    height: 161px;
+    width: 161px;
+    margin: auto;
+}
+
+.texto {
+    background-color: #FFC672;
+    width: 181px;
+    height: 55px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 201px;
+    font-family: 'Fresca', sans-serif;
+    position: relative;
+}
+
+#coracao {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 1%;
+    left: 5%;
+}
+
+#carrinho {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    bottom: 0;
+    right: 5%;
+}
+
+.main-baixo {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fileira {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+}
+.linha2 {
+    height: 10px;
+    width: 100%;
+    background: #264C84;
+}
+.atendimento {
+    margin-top: ;
+}
 
 
 
-
-
-
-
-=======
-
->>>>>>> 619fa1e4705af2d2b061c87bd0835363ef15f203
-  
-
-
-  
-    
 
