@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mundopet {
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #264C84;
+    font-size: 70px;
+}
+
+.mundopet a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #FBBC19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* width: 97vw; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
+
+
+    /* Deixa o header acima dos outros elementos */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 40px;
+    color: white;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+.patas {
+    height: 60px;
+}
+
+.gato {
+    height: 60px;
+}
+
+.carrinho {
+    height: 30px;
+}
+
+.coracao {
+    height: 40px;
+}
+
+.user {
+    height: 40px;
+}
+
+.inicial {
+    display: flex;
+    line-height: 70px;
+    padding-left: 7%;
+}
+
+.mundopet-2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 70px;
+}
+
+.p-1 {
+    font-family: 'Fresca', sans-serif;
+    display: flex;
+    line-height: 30px;
+    padding-left: 7%;
+    font-size: 25px;
+}
+
+.p-2 {
+    color: #264C84;
+    font-family: 'Fresca', sans-serif;
+    display: flex;
+    line-height: 70px;
+    padding-left: 7%;
+    font-size: 25px;
+}
+
+.dog-1 {
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    background-size: cover;
+}
+
+.app {
+    height: 30vh;
+}
+
+.marcas-parceiras {
+    display: flex;
+    line-height: 70px;
+    padding-left: 5%;
+}
+
+.marcas {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 30px;
+}
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sobre-nos {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 30px;
+    display: flex;
+    line-height: 70px;
+    padding-left: 5%;
+
+}
+
+footer{
+    background-color: #264C84;
+    font-family: 'Fredoka', sans-serif;
+    color: #FFEAA1;
+    height: 250px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    padding-left: 5%;
+}
+
+.texto-esquerdo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.texto-meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -14% ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.brands .row {
+    margin-left: -300px;
+}
+
+.texto-direito{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: -13.6%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+ /* ____________________________________________________________ */
+ /* Passaro */
+
+.Servico {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(12, 12, 203);
+  text-align: center;
+  margin-top: 180px;
+}
+
+.Servico li a p {
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+.servico1 {
+  background-color: #264C84;
+  color: #FFFCDD;
+  font-family: 'Fredoka', sans-serif;
+  font: size 70px;
+  width: 110px;
+  height: 30px;
+}
+
+.quadrado1 {
+  background-color: #FBBC19;
+  width: 380px;
+  height: 150px;
+  border-radius: 20px;
+  left: 30px;
+  margin-left: 20px;
+}
+
+.gatinho_1 {
+    width: 35px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.patas_2 {
+    width: 35px;
+    margin-left: 290px;
+}
+
+/* quer adotar um pet */
+.informativo {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Fredoka', sans-serif;
+  color: #ED8000;
+}
+
+.informativo2 {
+  text-align: left;
+  font-family: 'Fresca', sans-serif;
+  padding-top: 25px;
+  margin-left: 40px;
+  height: 15px;
+}
+
+.quadrado2 {
+    background-color: #FFEAA1;
+    width: 500px;
+    height: 306px;
+    left: 30px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: block;
+    padding-top: 1px;
+    padding-bottom: auto;
+}
+
+.informativo3 {
+    font-family: 'Fredoka', sans-serif;
+    color: #ED8000;
+    background-color: #FFC672;
+    width: 300px;
+    height: 50px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.informativo4 {
+    background-color: #FFC672;
+    font-family: 'Fredoka', sans-serif;
+    width: 450px;
+    height:150px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+/* apartir de 5 banhos */
+.textoinformativo {
+    margin-left: 20px;
+}
+
+.informativo5 {
+    text-align: right;
+
+}
+
+.desconto15 {
+    text-align: right;
+    margin-top: -140px;
+    margin-left: -90px;
+    font-size: 70px;
+    margin-right: 45px;
+}
+
+.e{
+    margin-left: 100px;
+}
+
+.coleira {
+    margin-left: -55px;
+}
+
+.desconto {
+    margin-left: 180px;
+    margin-top: -60px;
+}
+
+.retanguloazul{
+    background-color: #264C84;
+    margin-left: 1000px;
+    font-size: 60px;
+    margin-right: 800px;
+    font-family: 'Fredoka', sans-serif;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: -500px;
+}
+
+.retanguloazul p{
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.agendamento {
+    align-items: center;
+}
+
+.agendamento p{
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.fale {
+    font-family: 'Fresca', sans-serif;
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: -60px;
+}
+
+.numero  p{
+    text-align: center;
+    margin-right: 80px;
+    margin-top: -80px;
+}
+
+.mundo p{
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+    margin-top: -210px;
+    margin-left: 15px;
+}
+
+.telefone_azul {
+    width: 30px;
+    margin-left: 70px;
+    margin-top: -5px;
+}
+
+.whatsapp {
+    width: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.facebook {
+    width: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.instagram {
+    width: 30px;
+    margin-left: 70px;
+}
