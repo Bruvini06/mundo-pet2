@@ -174,3 +174,52 @@ header {
     justify-content: space-between;
     width: 100%;
 }
+
+.sobre-nos {
+    font-family: 'Fredoka', sans-serif;
+    color: #264C84;
+    font-size: 30px;
+    display: flex;
+    line-height: 70px;
+    padding-left: 5%;
+
+}
+
+footer{
+    background-color: #264C84;
+    font-family: 'Fredoka', sans-serif;
+    color: #FFEAA1;
+    height: 250px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    padding-left: 5%;
+}
+
+.texto-esquerdo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.texto-meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -210px ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.brands .row {
+    margin-left: -300px;
+}
+
+.texto-direito{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: -210px;
+    text-align: right;
+    padding-right: 5%;
+    display: block;
+}
