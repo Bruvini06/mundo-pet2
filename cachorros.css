@@ -1,4 +1,3 @@
-/* Index */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
@@ -199,129 +198,116 @@ footer{
     padding-right: 5%;
     display: block;
 }
-
- /* ____________________________________________________________ */
- /* Passaro */
-
- .retangulo-1{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 150px;
-    border-radius: 30px;
- }
-
- .passaro1{
-    width: 180px;
-}
-
- .ninho-p{
-    height: 100px;
-    transform: rotate(20deg)
- }
-
- .brinquedo-passaro{
-    height: 100px;
-    transform: rotate(-20deg)
- }
-
- .passaros-2{
-    width: 250px;;
-    margin-top: -10px;
- }
-
- .os-melhores{
-    font-family: 'Fredoka', sans-serif;
-      align-items: ;
-      display: flex;
-      justify-content: ;
-      color: #000000;
-      font-size: 40px;
-}
-span {
-    color: #FBBC19
-}
-.patas {
-    align-items: ;
-    display: flex;
-    justify-content: ;
-    color: #000000;
-    font-size: 10px;
-}
-.texto-sobre-cao {
-    font-family: 'Fredoka', sans-serif;
-    align-items: ;
-    display: flex;
-    justify-content: ;
-    color: #000000;
-    font-size: 20px;
-
-}
-
-.img2{
-    margin-left: 555px;
-    margin-top: -20px;
-}
-
-.retangulo-compra-3{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 820px;
-    margin-top: -139px;
-}
-p1 {
-    font-family: 'Fredoka';
-    font-size: 40px;
-    margin-left: 40px;
-
-}
-.Raçaogolden {
-    background: #FBBC19;
-    font-size: 14px;
-    padding: 60px 0 20px;
-}
-
-.retangulo-compra-4{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 1160px;
-    margin-top: -139px;
-}
-
-.retangulo-compra-4 p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
-    margin-left: 50px;
-}
-
-.img4{
-    margin-top: -20px;
-    margin-left: 1235px;
-}
+.cachorros {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   }
+   h1 {
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   p {
+       margin-left: 20px;
+   }
+   .textocachorro{
+       font-family: 'Fredoka', sans-serif;
+         align-items: ;
+         display: flex;
+         justify-content: ;
+         color: #000000;
+         font-size: 20px;
+   }
+   span {
+       color: #FBBC19
+    }
+   .patas {
+       align-items:; 
+       display: flex;
+       justify-content: 
+       color: #000000;
+       font-size: 20px;
+   }
+   .texto-sobre-cao {
+       font-family: 'Fredoka', sans-serif;
+       align-items:; 
+       display: flex;
+       justify-content: 
+       color: #000000;
+       font-size: 20px;
+   }
+   .linha {
+   height: 10px;
+   width: 100%;
+   background: #264C84;
    
-    
+}
 
+.caixa img {
+    height: 161px;
+    width: 161px;
+    margin: auto;
+}
+
+.texto {
+    background-color: #FFC672;
+    width: 181px;
+    height: 55px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 201px;
+    font-family: 'Fresca', sans-serif;
+    position: relative;
+}
+
+#coracao {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 1%;
+    left: 5%;
+}
+
+#carrinho {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    bottom: 0;
+    right: 5%;
+}
+
+.main-baixo {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fileira {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+}
+.linha2 {
+    height: 10px;
+    width: 100%;
+    background: #264C84;
+}
+.atendimento {
+    margin-top: ;
 }
 
 
 
-
-
-  
-
-
-  
-    
 
