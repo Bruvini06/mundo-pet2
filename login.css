@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#titulo {
+    color: #264C84;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+}
+
+main {
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-esquerda form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFFCDD;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+label, a, h1 {
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.input-email {
+    /* background-color: red; */
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+#email, #senha {
+    background-color: #FFEAA1;
+    border: none;
+    outline: none;
+    padding: 25px;
+    width: 180px;
+    border-radius: 7px;
+}
+
+#esqueci-senha {
+    font-size: 13px;
+}
+
+.input-esqueci-senha {
+    position: relative;
+    /* background-color: blue; */
+}
+
+.input-esqueci-senha label {
+    position: absolute;
+    right: 8%;
+}
+
+#entrar{
+    padding: 17px;
+    color: black;
+    background-color: #FBBC19;
+    width: 190px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.botao-google {
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botao-google a {
+    position: relative;
+    color: black;
+    /* background-color: rgb(109, 235, 109); */
+    padding: 0px 15px 0px 15px;
+}
+
+#google {
+    height: 25px;
+    left: 2.5%;
+}
+
+.main-esquerda {
+    text-align: center;
+    width: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#asd {
+    color: #9F9090;
+}
