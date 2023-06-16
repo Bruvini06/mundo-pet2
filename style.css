@@ -282,103 +282,68 @@ footer{
     font-size: 30px;
  }
 
- .retangulo-compra{
-    background-color: #FCE2A1;
+.main-cima {
+    /* background-color: red; */
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .texto {
+    background-color: #FFC672;
+    width: 181px;
+    height: 100px;
+    padding: 10px;
     align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 140px;
-    }
-
- 
- .retangulo-compra p{
-    font-family: 'Fresca', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
- }
-
-.jornal-h-p{
-    width: 100px;
-    margin-top: -400px;
-}
-
-.img1{
-    margin-left: 215px;
-}
-
-.retangulo-compra-2{
-    background-color: #FCE2A1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 480px;
-    margin-top: -140px;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
-.retangulo-compra-2 p{
-    font-family: 'Fresca', sans-serif  ;
-    font-size: 15px;
+.texto-compra{
     cursor: pointer;
 }
 
-.img2{
-    margin-left: 555px;
-    margin-top: -20px;
-}
-
-.retangulo-compra-3{
-    background-color: #FCE2A1;
+ .caixa {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 820px;
-    margin-top: -139px;
+    flex-direction: column;
+    justify-content: center;
+    width: 201px;
+    font-family: 'Fresca', sans-serif;
+    position: relative;
 }
 
-.retangulo-compra-3 p{
-    font-family: 'Fresca', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
+#coracao {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 1%;
+    left: 5%;
 }
 
-.img3{
-    margin-top: -20px;
-    margin-left: 895px;
+#carrinho {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    bottom: 0;
+    right: 5%;
 }
 
-.retangulo-compra-4{
-    background-color: #FCE2A1;
+.main-baixo {
+    margin: 25px;
     display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fileira {
+    display: inline-flex;
     justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 1160px;
-    margin-top: -139px;
-}
+    width: 99%;
+    /* background-color: red; */
 
-.retangulo-compra-4 p{
-    font-family: 'Fresca', sans-serif  ;
-    font-size: 15px;
-    cursor: pointer;
-    margin-right: 30px;
 }
-
-.img4{
-    margin-top: -20px;
-    margin-left: 1235px;
-}
-
 .ver-mais{
     font-size: 20px;
     margin-left: 600px;
@@ -458,7 +423,7 @@ footer{
     margin-top: -20px;
     margin-left: 50px;
     font-family:'fredoka', sans-serif; 
-    font-size: 25px;
+    font-size:25px;
 }
 
 .retangulo-promoçao-2{
@@ -468,7 +433,16 @@ footer{
     border-radius: 10px;
     margin-left: 600px;
     margin-top: -270px;
+    align-items: center;
+    display: flex;
 }
+
+.retangulo-promoçao-2 p{
+    font-family:'fredoka', sans-serif; 
+    font-size: 20px;
+    color: #FBBC19;
+}
+
 
 /*__________________________________________________________________*/
 /*Cachorro*/
