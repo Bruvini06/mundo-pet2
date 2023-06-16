@@ -213,32 +213,8 @@ footer{
  }
 
  .passaro1{
-    margin-top: -15px;
-    width: 200px;
- }
-
- .parte-central{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 0px;
- }
-
- .passaro-texto{
-    font-family: 'Fredoka', sans-serif;
-    font-size: 90px;
-     color: white;
- }
-
- .bolsa-1{
-    height: 110px;
-    transform: rotate(-20deg)
- }
-
- .racao-1{
-    height: 100px;
-    transform: rotate(20deg)
- }
+    width: 180px;
+}
 
  .ninho-p{
     height: 100px;
@@ -526,46 +502,72 @@ span {
     color: #FBBC19
 }
 .patas {
-    align-items:; 
+    align-items: ;
     display: flex;
-    justify-content: 
+    justify-content: ;
     color: #000000;
     font-size: 10px;
 }
-.texto-sobre-cao {
-    font-family: 'Fredoka', sans-serif;
-    align-items:; 
-    display: flex;
-    justify-content: 
-    color: #000000;
-    font-size: 20px;
+.img2{
+    margin-left: 555px;
+    margin-top: -20px;
 }
-.linha {
-height: 10px;
-width: 100%;
-background: #264C84;
 
+.retangulo-compra-3{
+    background-color: #FCE2A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 820px;
+    margin-top: -139px;
 }
-.produtoscachorro {
-    margin-left: 80px;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 10px;
-}
-.p1 {
+p1 {
     font-family: 'Fredoka';
     font-size: 40px;
     margin-left: 40px;
-}
 
+}
 .Raçaogolden {
     background: #FBBC19;
     font-size: 14px;
     padding: 60px 0 20px;
 }
-.raçao{
+
+.retangulo-compra-4{
+    background-color: #FCE2A1;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 1160px;
+    margin-top: -139px;
 }
+
+.retangulo-compra-4 p{
+    font-family: 'Fredoka', sans-serif  ;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.img4{
+    margin-top: -20px;
+    margin-left: 1235px;
+}
+   
+    
+
+}
+
+
+
+
+
   
 
 
