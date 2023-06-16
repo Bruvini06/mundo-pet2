@@ -292,7 +292,7 @@ footer{
  .texto {
     background-color: #FFC672;
     width: 181px;
-    height: 100px;
+    height: 119px;
     padding: 10px;
     align-items: center;
     display: flex;
@@ -318,7 +318,7 @@ footer{
     position: absolute;
     width: 20px;
     height: 20px;
-    bottom: 1%;
+    bottom: 3%;
     left: 5%;
 }
 
@@ -326,7 +326,7 @@ footer{
     position: absolute;
     width: 27px;
     height: 27px;
-    bottom: 0;
+    bottom: 2%;
     right: 5%;
 }
 
@@ -480,8 +480,24 @@ footer{
 }
 
 .retangulo-promoçao-5{
-    width: 20px;
+    width: 500px;
+    height: 100px;
+    margin-left: 500px;
     background-color: #FF8A00;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.retangulo-promoçao-5 p{
+    font-family: 'fredoka', sans-serif;
+    font-size: 27px;
+    color: white;
+}
+
+.preço-antigo{
+    text-decoration: line-through;
 }
 
 /*__________________________________________________________________*/
