@@ -161,19 +161,19 @@ header {
 
 }
 
-footer{
+footer {
     background-color: #264C84;
     font-family: 'Fredoka', sans-serif;
     color: #FFEAA1;
     height: 250px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
     display: flex;
     padding-left: 5%;
 }
 
-.texto-esquerdo{
+.texto-esquerdo {
     font-size: 25px;
     cursor: pointer;
 }
@@ -182,7 +182,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -210px ;
+    margin-top: -210px;
     font-size: 25px;
     cursor: pointer;
 }
@@ -191,7 +191,7 @@ footer{
     margin-left: -300px;
 }
 
-.texto-direito{
+.texto-direito {
     font-size: 25px;
     cursor: pointer;
     margin-top: -210px;
@@ -200,23 +200,23 @@ footer{
     display: block;
 }
 
- /* ____________________________________________________________ */
- /* Passaro */
+/* ____________________________________________________________ */
+/* Passaro */
 
- .retangulo-1{
+.retangulo-1 {
     background-color: #FCE2A1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
     border-radius: 30px;
- }
+}
 
- .passaro1{
+.passaro1 {
     width: 180px;
 }
 
-.passaro-texto{
+.passaro-texto {
     font-family: 'Fredoka', sans-serif;
     color: #FFFFFF;
     font-size: 65px;
@@ -225,47 +225,49 @@ footer{
     margin-left: 60px;
 }
 
- .ninho-p{
+.ninho-p {
     height: 100px;
     transform: rotate(20deg)
- }
+}
 
- .brinquedo-passaro{
+.brinquedo-passaro {
     height: 100px;
     transform: rotate(-20deg)
- }
+}
 
- .passaros-2{
-    width: 250px;;
+.passaros-2 {
+    width: 250px;
+    ;
     margin-top: -10px;
- }
+}
 
- .os-melhores{
+.os-melhores {
     font-family: 'Fredoka', sans-serif;
     color: #464A4C;
     font-size: 50px;
     margin-left: 60px;
- }
- .passaro-amarelo{
+}
+
+.passaro-amarelo {
     color: #FBBC19;
- }
+}
 
- .p-amarelo{
+.p-amarelo {
     width: 100px;
- }
+}
 
- .texto-abaixo-2{
-    font-family:'Fresca', sans-serif;
+.texto-abaixo-2 {
+    font-family: 'Fresca', sans-serif;
     font-size: 20px;
     margin-left: 60px;
- }
+}
 
- .texto-abaixo-3{
-    font-family: 'Fredoka', sans-serif ;
+.texto-abaixo-3 {
+    font-family: 'Fredoka', sans-serif;
     margin-left: 60px;
     color: #FBBC19;
     font-size: 30px;
- }
+}
 
 .main-cima {
     /* background-color: red; */
@@ -274,7 +276,7 @@ footer{
     justify-content: center;
 }
 
- .texto {
+.texto {
     background-color: #FFC672;
     width: 181px;
     height: 119px;
@@ -286,11 +288,11 @@ footer{
     border: 1px solid black;
 }
 
-.texto-compra{
+.texto-compra {
     cursor: pointer;
 }
 
- .caixa {
+.caixa {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,7 +331,8 @@ footer{
     /* background-color: red; */
 
 }
-.ver-mais{
+
+.ver-mais {
     font-size: 20px;
     margin-left: 600px;
     cursor: pointer;
@@ -337,34 +340,34 @@ footer{
     text-decoration: underline;
 }
 
-.cesta{
+.cesta {
     width: 30px;
     margin-top: 110px;
     margin-left: 110;
     cursor: pointer;
 }
 
-.preço-pa-1{
+.preço-pa-1 {
     margin-right: 10px;
     font-family: 'fredoka', sans-serif;
 }
 
-.preço-pa-2{
+.preço-pa-2 {
     margin-right: 10px;
     font-family: 'fredoka', sans-serif;
 }
 
-.preço-pa-3{
+.preço-pa-3 {
     margin-right: 10px;
     font-family: 'fredoka', sans-serif;
 }
 
-.preço-pa-4{
+.preço-pa-4 {
     margin-right: 10px;
     font-family: 'fredoka', sans-serif;
 }
 
-.coraçao-compra{
+.coraçao-compra {
     width: 30px;
     margin-top: 110px;
     cursor: pointer;
@@ -372,7 +375,7 @@ footer{
 
 /* Promoções */
 
-.retangulo-promoçao-1{
+.retangulo-promoçao-1 {
     background-color: #FBBC19;
     display: flex;
     justify-content: space-between;
@@ -385,34 +388,34 @@ footer{
     border: 1px solid black;
 }
 
-.fone{
+.fone {
     width: 30px;
     margin-top: -200px;
 }
 
-.hj-e{
+.hj-e {
     margin-top: -10px;
     margin-left: 80px;
-    font-family:'fredoka', sans-serif; 
+    font-family: 'fredoka', sans-serif;
     font-size: 25px;
 }
 
-.promo{
-    font-family: 'fredoka', sans-serif; 
+.promo {
+    font-family: 'fredoka', sans-serif;
     color: #FF8A00;
     margin-right: 100px;
     font-size: 60px;
     margin-top: 20px;
 }
 
-.aqui-pet{
+.aqui-pet {
     margin-top: -20px;
     margin-left: 50px;
-    font-family:'fredoka', sans-serif; 
-    font-size:25px;
+    font-family: 'fredoka', sans-serif;
+    font-size: 25px;
 }
 
-.retangulo-promoçao-2{
+.retangulo-promoçao-2 {
     height: 100px;
     width: 270px;
     background-color: #264C84;
@@ -424,13 +427,13 @@ footer{
     border: 1px solid black;
 }
 
-.retangulo-promoçao-2 p{
-    font-family:'fredoka', sans-serif; 
+.retangulo-promoçao-2 p {
+    font-family: 'fredoka', sans-serif;
     font-size: 27px;
     color: #FBBC19;
 }
 
-.retangulo-promoçao-3{
+.retangulo-promoçao-3 {
     background-color: #FBBC19;
     height: 130px;
     width: 270px;
@@ -440,13 +443,14 @@ footer{
     display: flex;
     border: 1px solid black;
 }
-.retangulo-promoçao-3 p{
-    font-family: 'fredoka', sans-serif; 
+
+.retangulo-promoçao-3 p {
+    font-family: 'fredoka', sans-serif;
     color: #264C84;
     font-size: 24px;
 }
 
-.retangulo-promoçao-4{
+.retangulo-promoçao-4 {
     height: 100px;
     width: 350px;
     background-color: #FF8A00;
@@ -458,13 +462,13 @@ footer{
     margin-top: -70px;
 }
 
-.retangulo-promoçao-4 p{
+.retangulo-promoçao-4 p {
     color: #FCE2A1;
-    font-family: 'fredoka', sans-serif; 
+    font-family: 'fredoka', sans-serif;
     font-size: 27px;
 }
 
-.retangulo-promoçao-5{
+.retangulo-promoçao-5 {
     width: 500px;
     height: 100px;
     margin-left: 500px;
@@ -475,107 +479,129 @@ footer{
     justify-content: center;
 }
 
-.retangulo-promoçao-5 p{
+.retangulo-promoçao-5 p {
     font-family: 'fredoka', sans-serif;
     font-size: 27px;
     color: white;
 }
 
-.preço-antigo{
+.preço-antigo {
     text-decoration: line-through;
 }
 
-/*__________________________________________________________________*/
-/*Cachorro*/
-.cachorros {
- width: 100%;
- height: 100%;
- position: absolute;
-}
-h1 {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-p {
-    margin-left: 20px;
-}
-.textocachorro{
-    font-family: 'Fredoka', sans-serif;
-      align-items: ;
-      display: flex;
-      justify-content: ;
-      color: #000000;
-      font-size: 40px;
-}
-span {
-    color: #FBBC19
-}
-.patas {
-    align-items: ;
-    display: flex;
-    justify-content: ;
+.racao-produto {
+    text-decoration: none;
     color: #000000;
-    font-size: 10px;
-}
-.img2{
-    margin-left: 555px;
-    margin-top: -20px;
 }
 
-.retangulo-compra-3{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 820px;
-    margin-top: -139px;
-}
-p1 {
-    font-family: 'Fredoka';
-    font-size: 40px;
-    margin-left: 40px;
+/* Pagina produto */
 
-}
-.Raçaogolden {
-    background: #FBBC19;
-    font-size: 14px;
-    padding: 60px 0 20px;
+.atalhos-promo {
+    margin-left: 100px;
 }
 
-.retangulo-compra-4{
-    background-color: #FCE2A1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    width: 250px;
-    border-radius: 10px;
-    margin-left: 1160px;
-    margin-top: -139px;
-}
-
-.retangulo-compra-4 p{
-    font-family: 'Fredoka', sans-serif  ;
-    font-size: 15px;
+.atalho-1 {
+    font-family: 'fredoka', sans-serif;
+    margin-left: 180px;
+    font-size: 20px;
     cursor: pointer;
-    margin-left: 50px;
+    color: #264C84;
 }
 
-.img4{
-    margin-top: -20px;
-    margin-left: 1235px;
+.seta-1 {
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+    margin-left: 295px;
+    margin-top: -22px;
+    color: #264C84;
 }
 
+.atalho-2 {
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+    margin-left: 335px;
+    margin-top: -26px;
+    cursor: pointer;
+    color: #264C84;
+}
 
+.seta-2 {
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+    margin-left: 445px;
+    margin-top: -22px;
+    color: #264C84;
+}
 
+.atalho-3 {
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 490px;
+    margin-top: -27px;
+    color: #264C84;
+}
 
+.racao-produto-2 {
+    width: 700px;
+    margin-left: 70px;
+}
 
-  
+.nome-do-produto {
+    font-family: 'fredoka', sans-serif;
+    margin-left: 700px;
+    margin-top: -610px;
+    font-size: 40px;
+}
 
+.preço-promo{
+    font-family: 'fredoka', sans-serif ;
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: 15px;
+    color: #000000;
+}
 
-  
-    
+.preço-antigo-2 {
+    text-decoration: line-through;
+    color: #555;
+}
 
+.quantidade-promo{
+    position: relative;
+    margin-left: 700px;
+}
+
+.quantidade-promo a{
+    margin-left: 100px;
+    display: inline-block;
+    background: #264C84;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5s, color 0.3s, opacity 1s;
+    cursor: pointer;
+}
+
+.quantidade-promo-2{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #264C84;
+}
+
+.descricao-promo{
+    margin-left: 700px;
+}
+
+.texto-produto-1{
+    font-family: 'fredoka', sans-serif ;
+    font-size: 25px
+}
+
+.texto-produto-2{
+    font-family: 'Fresca', sans-serif;
+    font-size: 20px;
+}
