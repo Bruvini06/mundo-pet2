@@ -40,6 +40,7 @@ header {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    margin-left: 860px;
 }
 
 .navbar a {
@@ -51,6 +52,11 @@ header {
     text-decoration: none;
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
+}
+
+.pesquisa {
+    width: 170px;
+    
 }
 
 .patas {
@@ -67,10 +73,12 @@ header {
 
 .coracao {
     height: 40px;
+    margin-left: -170px;
 }
 
 .user {
     height: 40px;
+    margin-left: -320px;
 }
 
 .inicial {
@@ -308,10 +316,9 @@ footer{
 
 .desconto15 {
     text-align: right;
-    margin-top: -140px;
-    margin-left: -90px;
+    margin-top: -120px;
+    margin-left: 90px;
     font-size: 70px;
-    margin-right: 45px;
 }
 
 .e{
@@ -323,8 +330,8 @@ footer{
 }
 
 .desconto {
-    margin-left: 180px;
-    margin-top: -60px;
+    margin-left: 170px;
+    margin-top: -80px;
 }
 
 .retanguloazul{
@@ -346,6 +353,7 @@ footer{
 
 .agendamento {
     align-items: center;
+    margin-left: 90px;
 }
 
 .agendamento p{
@@ -358,20 +366,23 @@ footer{
     font-family: 'Fresca', sans-serif;
     margin-left: 70px;
     margin-right: 80px;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 
 .numero  p{
-    text-align: center;
-    margin-right: 80px;
+    margin-right: -170px;
     margin-top: -80px;
+    margin-left: 150px;
+    align-items: center;
+
 }
 
 .mundo p{
     font-family: 'Fresca', sans-serif;
     text-align: center;
-    margin-top: -210px;
-    margin-left: 15px;
+    margin-top: -300px;
+    margin-left: 145px;
+    color: black;
 }
 
 .telefone_azul {

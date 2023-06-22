@@ -216,6 +216,15 @@ footer{
     width: 180px;
 }
 
+.passaro-texto{
+    font-family: 'Fredoka', sans-serif;
+    color: #FFFFFF;
+    font-size: 65px;
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+}
+
  .ninho-p{
     height: 100px;
     transform: rotate(20deg)
@@ -558,10 +567,6 @@ p1 {
 .img4{
     margin-top: -20px;
     margin-left: 1235px;
-}
-   
-    
-
 }
 
 
