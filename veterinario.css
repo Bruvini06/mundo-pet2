@@ -113,6 +113,7 @@ header {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-between;
+    /* gap: 4rem; */
     
 }
 .listaImagens2 .lista2{
@@ -126,5 +127,7 @@ header {
 .Dogao{
     height:250px ;
     width:350px ;
+    margin-left: 100px;
+    margin-top: 200px;
 }
 
