@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Fredoka';
+    /* font-family: 'Fredoka'; */
 }
 
 .mundopet {
@@ -206,17 +206,22 @@ footer{
  .bannerprom{
     justify-content: center;
 } 
-.text{
+.titulogato{
     margin-left: 1%;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka',sans-serif;
+    color: #464A4C;
+   margin-left: 60px;
+    
 }
-.TextGat{
+.spancat{
     color: #FBBC19;
     justify-content: center;
 }
-.texto-sobre-gato{
-    margin-left: 0%;
-    font-family: 'Fresca', sans-serif;
+
+.alisa{
+    font-family:'Fresca', sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
 }
 
 .linhaamarela {
@@ -237,3 +242,118 @@ footer{
     margin-left: 12%;
     justify-content: center;
  }
+.alisa{
+    font-family:'Fresca', sans-serif;
+    font-size: 20px;
+    margin-left: 3px;
+}
+.compras{
+    font-family: 'Fredoka', sans-serif;
+    color: #464A4C;
+    margin-left: 60px;
+}
+
+.main-cima {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .texto {
+    background-color: #FFC672;
+    width: 181px;
+    height: 119px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.texto-compra{
+    cursor: pointer;
+}
+
+ .caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 201px;
+    font-family: 'Fresca', sans-serif;
+    position: relative;
+}
+
+#coracao {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 3%;
+    left: 5%;
+}
+
+#carrinho {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    bottom: 2%;
+    right: 5%;
+}
+
+.main-baixo {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fileira {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 99%;
+    /* background-color: red; */
+
+}
+.ver-mais{
+    font-size: 20px;
+    margin-left: 600px;
+    cursor: pointer;
+    color: #264C84;
+    text-decoration: underline;
+}
+
+.cesta{
+    width: 30px;
+    margin-top: 110px;
+    margin-left: 110;
+    cursor: pointer;
+}
+
+.preço-pa-1{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-2{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-3{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.preço-pa-4{
+    margin-right: 10px;
+    font-family: 'fredoka', sans-serif;
+}
+
+.coraçao-compra{
+    width: 30px;
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+
