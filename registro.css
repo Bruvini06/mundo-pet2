@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-esquerda{
+    height: 100vh;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: blue; */
+    width: 275px;
+}
+
+input {
+    height: 55px;
+    border: none;
+    outline: none;
+    background-color: #ffc772a1;
+    font-family: 'GFS Neohellenic', sans-serif;
+    border-radius: 11px;
+    padding: 5px;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+.div-cpf-cell {
+    display: inline-flex;
+    gap: 30px;
+}
+
+#cpf, #cell {
+    width: 50%;
+}
+
+h1 {
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-weight: 300;
+    color: #9F9090;
+}
+
+a {
+    font-family: 'Alef', sans-serif;
+    color: black;
+    background-color: #f0efef;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.main-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15%;
+}
